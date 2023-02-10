@@ -35,6 +35,9 @@ Assignments from betasquirrel
 - 2 - 'ls' -List contents of a directory, Eg: 'ls -a' lists hidden files as well.
 - 3 - 'pwd' -Display current working directory path
 - 4 - 'cat' -Display contents of a file. Eg: 'cat README.md'
+- 5 - 'rm' -The rm command is used to remove file Eg: rm <file name>
+- 6 - 'clear' To clear the screen Eg: clear
+- 7 - 'mkdir' To create new directory Eg: mkdir projects
 
 ## Git Commands
 
@@ -43,6 +46,8 @@ Assignments from betasquirrel
 - 3 - 'Git Add .' - add your file changes to git Eg: 'git add README.md'
 - 4 - 'Git Commit' -commit changes to git. Eg: 'git commit -m "initial commit"'
 - 5 - 'Git push' - Push your local commits to remote repo Eg: 'git push origin main'
+- 6 - 'Git pull' - this command fetches and mergeschanges on the remote server to your working durectory
+- 7 - git reset' - This command undoes all the commits after the specified commit and preserves the changes locally Eg: git reset [commit]
 
 ## Task 5
 
