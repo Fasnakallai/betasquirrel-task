@@ -1,229 +1,222 @@
 body {
-    background-color: #ECECEC;
-    margin: 0 auto;
+  background-color: #ececec;
+  margin: 0 auto;
 }
 #navbar {
-    background-color: #625C5C;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 1px ;
+  background-color: #625c5c;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1px;
 }
 #logo-container {
-    height: 50;
-    float: left;
-    display: flex;
-    justify-content: flex-start;
-    padding: 15px;
+  height: 50;
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px;
 }
 #logo-container img {
-    height: 60px;
-    margin-right: 15px;
+  height: 60px;
+  margin-right: 15px;
 }
 #logo-container h2 {
-    display: inline-block;
-    color: white;
-    }
+  display: inline-block;
+  color: white;
+}
 #profile-container {
-    width: auto;
-    float: right;
+  width: auto;
+  float: right;
 }
 #profile-container > img {
-    height: 70px;
-    border-radius: 50%;
+  height: 70px;
+  border-radius: 50%;
 }
 .main {
-    height: calc(100vh - 81px);
-    width: 100%;
-    position: relative;
-    overflow: hidden;
+  height: calc(100vh - 81px);
+  width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 #sidebar {
-    background-color: #625C5C;
-    height: 100%;
-    width: 150px;
-    float: left
+  background-color: #625c5c;
+  height: 100%;
+  width: 150px;
+  float: left;
 }
 #container > h2 {
-color: #555;
-margin: 0 0 15px 0;
-text-decoration: underline;
+  color: #555;
+  margin: 0 0 15px 0;
+  text-decoration: underline;
 }
 #container {
-    padding: 15px;
-    height: 500px;
-    float: left;
-    width: calc(100vw - 180px);
-
+  padding: 15px;
+  height: 500px;
+  float: left;
+  width: calc(100vw - 180px);
 }
 .green-bg {
-    background-color: #0ACE82;
+  background-color: #0ace82;
 }
 .purple-bg {
-    background-color: #A259FF;
-
+  background-color: #a259ff;
 }
 .red-bg {
-    background-color: #F34E1E;
+  background-color: #f34e1e;
 }
 .cyan-bg {
-    background-color: #1ABCFD;
-
+  background-color: #1abcfd;
 }
 #tile-container,
-#circle-container
-{
-    display: flex;
-    border-radius: 50%;
+#circle-container {
+  display: flex;
+  border-radius: 50%;
 }
 #tile-container {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
-.tile 
-{
-    height: 150px;
-    width: calc(100% / 4);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.circle
-{
-    height: 80px;
-    width: calc(100% / 5);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin-right: 50px;
+.tile {
+  height: 150px;
+  width: calc(100% / 4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .circle {
-    height: calc((100vw -180px)/ 6) ;
+  height: 80px;
+  width: calc(100% / 5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-right: 50px;
 }
 .circle {
-    border-radius: 50%;
+  height: calc((100vw -180px) / 6);
+}
+.circle {
+  border-radius: 50%;
 }
 .tile h2,
 .tile h3 {
-    color: white;
+  color: white;
 }
 #circle-container {
-    margin-right: 50px;
-    margin-left: 30px;
+  margin-right: 50px;
+  margin-left: 30px;
 }
-#tile-container > div ,
+#tile-container > div,
 #circle-container > div {
-    margin-right: 25px;
+  margin-right: 25px;
 }
-
-#tile-container > div:last-child ,
+#tile-container > div:last-child,
 #circle-container > div:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 #sidebar nav {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    padding: 20px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 20px 10px 10px 10px;
 }
 #sidebar nav a {
-    color: white;
-    padding: 8px;
+  color: white;
+  padding: 8px;
 }
 #sidebar nav a.active {
-    text-decoration: none;
-    color: aqua;
+  text-decoration: none;
+  color: aqua;
 }
 #sidebar nav a:first-child {
-    padding-top: 0;
+  padding-top: 0;
 }
 .inner1 {
-    width: 70%;
-    height: 70%;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.inner1 h2 ,
+.inner1 h2,
 .inner4 h2 {
-    color: white;
+  color: white;
 }
 .inner2 {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
 }
 .inner2 h2 {
-    color: black;
+  color: black;
 }
 .inner3 {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ff7262;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff7262;
 }
 .inner4 {
-    width: 50%;
-    height: 50%;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: purple;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
 }
 .bar {
-    height: 100%;
-    width: 10px;
-    position: absolute;
+  height: 100%;
+  width: 10px;
+  position: absolute;
 }
 .chart {
-    position: relative;
-    display: block;
-    margin-left: 30px;
-    margin-bottom: 25px;
+  position: relative;
+  display: block;
+  margin-left: 30px;
+  margin-bottom: 25px;
 }
 .chart div {
-    bottom: 0;
+  bottom: 0;
 }
 .one {
-    left: 0;
-    height: 150px;
+  left: 0;
+  height: 150px;
 }
 .two {
-    left: 30px;
-    height: 80px;
+  left: 30px;
+  height: 80px;
 }
 .three {
-    left: 60px;
-    height: 100px;
+  left: 60px;
+  height: 100px;
 }
 .four {
-    left: 90px;
-    height: 60px;
+  left: 90px;
+  height: 60px;
 }
 .five {
-    left: 120px;
-    height: 120px;
-    background-color: #625C5C;
+  left: 120px;
+  height: 120px;
+  background-color: #625c5c;
 }
 .six {
-    left: 150px;
-    height: 30px;
+  left: 150px;
+  height: 30px;
 }
 .line {
-    width: 250px;
-    height: 5px;
-    background-color: rgb(56,53,53);
-    position: absolute;
+  width: 250px;
+  height: 5px;
+  background-color: rgb(56, 53, 53);
+  position: absolute;
 }
