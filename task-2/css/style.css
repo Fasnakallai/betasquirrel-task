@@ -1,68 +1,70 @@
 body {
-    background-color: brown;
-    margin: 0 auto;
+  background-color: #301b1a;
+  margin: 0 auto;
 }
 #navbar {
-    background-color: purple;
-    height: 80px;
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: space-between;
+  background-color: #533261;
+  height: 80px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
 }
 .boxes {
-    background-color: green;
-    height: 200px;
-    width: 40%;
-    float: left;
-    border: 1px solid blueviolet;
-    margin-bottom: 15px;
-    margin-top: 40px;
+  background-color: #8ae382;
+  height: 200px;
+  width: 40%;
+  float: left;
+  border: 1px solid #8ae382;
+  margin-bottom: 15px;
+  margin-top: 40px;
 }
 #main-container {
-    background-color: white;
-    height: 300px;
-    border: 1px solid blue;
-    margin-bottom: 15px;
-    margin-right: 10px;
-    margin-left: 10px;
+  background-color: #d2d9e9;
+  height: 300px;
+  border: 1px solid #8ae382;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
-#block{
-        background-color: grey;
-        height: 200px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        padding: 20px;
-    }
-#main-container2 {background-color: grey;
-    height: 200px;
-    margin-bottom: 15px;
-    border: 10px solid green;
+#block {
+  background-color: #dadada;
+  height: 200px;
+  margin: 0 15px 15px 15px;
+  padding: 20px;
 }
-   .first{
-        margin-right: 90px;
-        margin-left: 40px;
-    }
-    .second{
-        margin-left: 100px;
-    }
-    .left {
-        float: left;
-        display: flex;
-        align-self: center;
-    }
-    .right {
-        float: right;
-        display: flex;
-        align-self: center;
-    }
+#main-container2 {
+  background-color: #dadada;
+  height: 200px;
+  margin-bottom: 15px;
+  border: 10px solid #b64242;
+  margin: 10px;
+}
+.first {
+  margin-right: 90px;
+  margin-left: 40px;
+}
+.second {
+  margin-left: 100px;
+}
+.left {
+  float: left;
+  display: flex;
+  align-self: center;
+}
+.right {
+  float: right;
+  display: flex;
+  align-self: center;
+}
 .left img {
-    height: 50px; }
+  height: 50px;
+}
 .left h2 {
-        display: inline;
-        color: white;
-    }
+  display: inline;
+  color: white;
+}
 .right a {
-color: white;
-padding: 10px;
-display: inline;
+  color: white;
+  padding: 10px;
+  display: inline;
 }
