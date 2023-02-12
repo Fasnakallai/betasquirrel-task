@@ -20,18 +20,14 @@ body {
   align-items: center;
   justify-content: center;
 }
-a {
-  color: black;
-  text-decoration: underline;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-a {
+a
+ {
   color: black;
   height: 160px;
   width: 300px;
   background-color: green;
+  text-decoration: underline;
+  flex-direction: column;
   font-size: larger;
   justify-content: center;
   display: flex;
