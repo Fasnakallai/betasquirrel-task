@@ -26,18 +26,19 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
-#block {
-  background-color: #dadada;
-  height: 200px;
-  margin: 0 15px 15px 15px;
-  padding: 20px;
-}
-#main-container2 {
+.main-container2 {
   background-color: #dadada;
   height: 200px;
   margin-bottom: 15px;
   border: 10px solid #b64242;
   margin: 10px;
+}
+.block > {
+  background-color: #dadada;
+  height: 200px;
+  margin: 0 15px 15px 15px;
+  padding: 20px;
+  border: 10px solid #b64242;
 }
 .first {
   margin-right: 90px;
