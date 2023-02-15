@@ -9,8 +9,8 @@ Assignments from betasquirrel
 ## Profile Links
 
 - [Github](http://github.com/Fasnakallai)
-- [Linkdin](https://www.linkedin.com/in/fasna-k)
-- [Stackoverflow](https://stackoverflow.com/fasna-kallai)
+- [Linkdin](www.linkedin.com/in/fasna-k-53b089266)
+- [Stackoverflow](https://stackoverflow.com/users/21204663/fasna-kallai)
 
 ## Tasks
 
