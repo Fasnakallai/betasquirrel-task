@@ -6,6 +6,12 @@ Assignments from betasquirrel
 
 - [Live](https://fasnakallai.github.io/betasquirrel-task/)
 
+## Profile Links
+
+- [Github](http://github.com/Fasnakallai)
+- [Linkdin](https://www.linkedin.com/in/fasna-k)
+- [Stackoverflow](https://stackoverflow.com/fasna-kallai)
+
 ## Tasks
 
 | Requirements                 | Output                          |
