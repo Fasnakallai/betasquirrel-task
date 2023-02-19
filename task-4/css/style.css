@@ -30,11 +30,11 @@ body {
   float: right;
 }
 #profile-container > img {
-  height: 70px;
+  height: 60px;
   border-radius: 50%;
 }
 .main {
-  height: calc(100vh - 81px);
+  height: calc(100vh - 80px);
   width: 100%;
   position: relative;
   overflow: hidden;

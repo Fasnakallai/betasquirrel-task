@@ -69,3 +69,12 @@ Assignments from betasquirrel
 - [HTML Table padding &Spacing](https://www.w3schools.com/html/html_tablepadding&spacing.asp)
 - [HTML Table Colspan &Rowspan](https://www.w3schools.com/html/html_tablecolspan&rowspan.asp)
 - [HTML Table Styling](https://www.w3schools.com/html/html_tablestyling.asp)
+
+## Task 6
+
+- [CSS Table](https://www.w3schools.com/css/css_table.asp)
+- [CSS Table Size](https://www.w3schools.com/css/css_table_size.asp)
+- [CSS Table Align](https://www.w3schools.com/css/css_table_align.asp)
+- [CSS Table Style](https://www.w3schools.com/css/css_table_style.asp)
+- [CSS Table Responsive](https://www.w3schools.com/css/css_table_responsive.asp)
+- [CSS Form](https://www.w3schools.com/css/css_form.asp)
