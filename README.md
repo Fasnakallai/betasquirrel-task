@@ -48,6 +48,7 @@ Assignments from betasquirrel
 - 5 - `rm` -The rm command is used to remove file Eg: `rm <file name>`
 - 6 - `clear` To clear the screen Eg: `clear`
 - 7 - `mkdir` To create new directory Eg: `mkdir projects`
+- 8 - `ssh-keygen` Generate ssh key Eg: `ssh-keygen -t ed25519 -c "myemail@gmail.com"`
 
 ## Git Commands
 
@@ -58,6 +59,13 @@ Assignments from betasquirrel
 - 5 - `Git push` - Push your local commits to remote repo Eg: `git push origin main`
 - 6 - `Git pull` - this command fetches and mergeschanges on the remote server to your working durectory
 - 7 - `git reset` - This command undoes all the commits after the specified commit and preserves the changes locally Eg: `git reset` [commit]
+- 8 -`git config --list`-To see the config added
+- 9 -`git config --hard`-remove all changes
+- 10 -`git status`-To see the current changes as list
+- 11 -`git diff`-See the changes on each file
+- 12 -`git log`-See commit history
+- 13 -`git stash`-Stash your uncommited changes
+- 14 -`git init`-Initialize git repo
 
 ## Task 5
 

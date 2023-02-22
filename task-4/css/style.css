@@ -8,17 +8,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 1px;
+  border-bottom: 1px solid #ececec;
 }
 #logo-container {
-  height: 50;
+  height: 30px;
   float: left;
   display: flex;
   justify-content: flex-start;
   padding: 15px;
 }
 #logo-container img {
-  height: 60px;
+  height: 30px;
   margin-right: 15px;
 }
 #logo-container h2 {
@@ -42,7 +42,7 @@ body {
 #sidebar {
   background-color: #625c5c;
   height: 100%;
-  width: 150px;
+  width: 115px;
   float: left;
 }
 #container > h2 {
@@ -68,9 +68,10 @@ body {
 .cyan-bg {
   background-color: #1abcfd;
 }
-#tile-container,
-#circle-container {
+#tile-container {
   display: flex;
+}
+#circle-container {
   border-radius: 50%;
 }
 #tile-container {
@@ -86,7 +87,7 @@ body {
 .tile,
 .circle,
 .chart {
-  width: calc(100% / 4);
+  width: calc((100%) / 4);
   display: flex;
   flex-direction: column;
   justify-content: center;

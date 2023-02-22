@@ -6,6 +6,9 @@ body {
   background-color: #543561;
   height: 70px;
   margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 #main-container {
   background-color: #d1d8e8;
@@ -16,15 +19,15 @@ body {
   background-color: #d1d8e8;
   height: 180px;
   border: 1px solid blueviolet;
-  width: 30%;
+  width: calc((100vw / 3) - 60px);
   float: left;
   margin-bottom: 15px;
 }
 .m-l {
-  margin-right: 19px;
+  margin-left: 20px;
 }
 .m-r {
-  margin-right: 19px;
+  margin-right: 20px;
 }
 div {
   padding: 15px;
@@ -34,12 +37,16 @@ div {
 }
 .left {
   float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .right {
   float: right;
 }
 .left img {
   height: 50px;
+  padding-right: 15px;
 }
 .left h2 {
   display: inline;
@@ -47,13 +54,36 @@ div {
 }
 .right a {
   color: white;
+  padding: 15px;
+  text-decoration: none;
 }
-@media screen and (max-width: 620px) {
-  #menu-container a {
+@media only screen and (max-width: 620px) {
+  .right a {
     display: none;
   }
   .boxes {
     width: calc(100vw - 40px);
     margin: 0 5px 5px 5px;
+    height: auto;
+  }
+  #main-container {
+    height: auto;
+  }
+}
+@media only screen and (min-width: 621px) and (max-width: 900px) {
+  .right a {
+    display: none;
+  }
+  .boxes.first {
+    width: calc(100vw - 15px);
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .boxes.second,
+  .boxes.third {
+    width: calc((100vw / 2) - 45px);
+  }
+  #main-container {
+    height: auto;
   }
 }

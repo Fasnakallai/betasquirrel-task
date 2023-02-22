@@ -1,51 +1,71 @@
 body {
   background-color: #301b1a;
-  margin: 0 auto;
+  margin: 0;
 }
 #navbar {
   background-color: #533261;
   height: 80px;
   margin-bottom: 15px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#logo-container {
+  width: 300px;
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px;
+}
+#logo-container img {
+  height: 60px;
+  margin-right: 15px;
+  padding: 15px;
+}
+#logo-container h2 {
+  display: inline-block;
+  color: white;
+}
+#menu-container {
+  width: 250px;
+  float: right;
+}
+#menu-container {
+  color: white;
+  text-decoration: none;
+}
+#main-container {
+  background-color: #d2d9e9;
+  height: 250px;
+  margin: 15px;
+  padding: 15px;
+  display: flex;
   justify-content: space-between;
 }
 .boxes {
   background-color: #8ae382;
-  height: 200px;
-  width: 40%;
+  width: 300px;
+  padding: 15px;
   float: left;
-  border: 1px solid #8ae382;
-  margin-bottom: 15px;
-  margin-top: 40px;
 }
-#main-container {
-  background-color: #d2d9e9;
-  height: 300px;
-  border: 1px solid #8ae382;
-  margin-bottom: 15px;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-.main-container2 {
-  background-color: #dadada;
-  height: 200px;
-  margin-bottom: 15px;
-  border: 10px solid #b64242;
-  margin: 10px;
-}
-.block > {
-  background-color: #dadada;
+#secondary-container {
+  background-color: #b94141;
   height: 200px;
   margin: 0 15px 15px 15px;
-  padding: 20px;
-  border: 10px solid #b64242;
+  padding: 15px;
+}
+#inner-container {
+  background-color: #dadada;
+  height: 100%;
+  margin-bottom: 15px;
+  border: 2px solid #2ca122;
 }
 .first {
-  margin-right: 90px;
-  margin-left: 40px;
+  margin-right: 40px;
+  margin-left: 5px;
 }
 .second {
-  margin-left: 100px;
+  margin-left: 70px;
 }
 .left {
   float: left;
@@ -59,6 +79,7 @@ body {
 }
 .left img {
   height: 50px;
+  padding: 15px;
 }
 .left h2 {
   display: inline;
@@ -68,12 +89,31 @@ body {
   color: white;
   padding: 10px;
   display: inline;
+  text-decoration: none;
 }
-@media screen and (max-width: 620px) {
-  #main-container  {
+@media only screen and (max-width: 620px) {
+  .right a {
     display: none;
   }
-  .boxes {
-    width: calc(100vw - 100px);
-    margin: 0 5px 5px 5px;
+  #main-container {
+    width: auto;
+    flex-direction: column;
+    height: auto;
   }
+}
+@media only screen and (min-width: 621px) and (max-width: 900px) {
+  .right a {
+    display: none;
+  }
+  #main-container {
+    width: auto;
+    flex-direction: column;
+    height: auto;
+  }
+  .content-1,
+  .content-2 {
+    width: auto;
+    height: auto;
+    margin-bottom: 15px;
+  }
+}

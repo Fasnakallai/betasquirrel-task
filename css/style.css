@@ -20,9 +20,8 @@ body {
   align-items: center;
   justify-content: center;
 }
-a
- {
-  color: black;
+a {
+  color: white;
   height: 160px;
   width: 300px;
   background-color: green;
